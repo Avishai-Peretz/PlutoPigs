@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-size: 10px;
+    background: url(./images/template_bg_NEW.png) center center no-repeat ;
+    background-size: auto;
+    font-family: "Chakra Petch", sans-serif;
+}
+header {
+
+    border: yellow 1px solid;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 5rem;
+}
+#social-links-container {
+    width: 24rem;
+    height: 5.1rem;
+}
+.link-btn {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+.discord-btn {
+    background: url(./images/discord_icon.png) center center/cover;
+}
+.magic-eden-btn {
+    background: url(./images/magic-eden-icon.png) center center/cover;
+}
+.twitter-btn {
+    background: url(./images/twitter-icon.png) center center/cover;
+}
+
+.intro-gif{
+    background: url(./images/JET_ANIMATION_NON_REPEAT.gif) center center/contain no-repeat;
+    width: 30rem;
+    height: 5rem;
+}
+.intro-gif:hover {
+    background: url(./images/PlutoPings-ANIMATION.gif) center center/contain no-repeat;
+    width: 30rem;
+    height: 5rem;
+}
+.static {
+    position:absolute;
+    top:51%;
+  }
+  
+.static:hover {
+    opacity:0;
+}
+#intro-container {
+    height: 30rem ;
+    width: 55rem;
+    border: yellow 1px solid;
+}
+main {
+    width: 100vw;
+}
+
+.info-text {
+    width: 30rem;
+    height: 27rem;
+    background-color: aqua;
+}
+.info-gallery {
+    width: 27rem;
+    height: 27rem;
+    background-color: bisque;
+    border: yellow 1px solid;
+    display: grid;
+    grid-template-areas:
+    "a a b c d d"
+    "a a e e d d"
+    "f g e e h h"
+    "i j o o h h"
+    "m m o o p q"
+    "m m k l r n"
+    ;
+    grid-gap: 3px;
+}
+#gal-img-1 {
+    grid-area: a;
+    background-color: blueviolet;
+}
+#gal-img-2 {
+    grid-area: b;
+    background-color: blueviolet;
+}
+#gal-img-3 {
+    grid-area: c;
+    background-color: blueviolet;
+}
+#gal-img-4 {
+    grid-area: d;
+    background-color: blueviolet;
+}
+#gal-img-5 {
+    grid-area: e;
+    background-color: blueviolet;
+}
+#gal-img-6 {
+    grid-area: f;
+    background-color: blueviolet;
+}
+#gal-img-7 {
+    grid-area: g;
+    background-color: blueviolet;
+}
+#gal-img-8 {
+    grid-area: h;
+    background-color: blueviolet;
+}
+#gal-img-9 {
+    grid-area: i;
+    background-color: blueviolet;
+}
+#gal-img-10 {
+    grid-area: j;
+    background-color: blueviolet;
+}
+#gal-img-11 {
+    grid-area: k;
+    background-color: blueviolet;
+}
+#gal-img-12 {
+    grid-area: l;
+    background-color: blueviolet;
+}
+#gal-img-13 {
+    grid-area: m;
+    background-color: blueviolet;
+}
+#gal-img-14 {
+    grid-area: n;
+    background-color: blueviolet;
+}
+#gal-img-15 {
+    grid-area: o;
+    background-color: blueviolet;
+}
+#gal-img-16 {
+    grid-area: p;
+    background-color: blueviolet;
+}
+#gal-img-17 {
+    grid-area: q;
+    background-color: blueviolet;
+}
+#gal-img-18 {
+    grid-area: r;
+    background-color: blueviolet;
+}
+
+#demo {
+    height: 3rem;
+    font-size: 2rem;
+    color: aliceblue;
+}
+.countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+  }
+  
+  .countdown ul {
+    display: flex;
+    gap: 2rem
+  }
+  .countdown .clock-item {
+    list-style: none;
+    width: 70px;
+    height: auto;
+  }
+  .countdown .clock-item .count-number {
+    background: var(--accent-color);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    padding: 1rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 4px 4px 0 0;
+  }
+  .countdown .clock-item .count-text {
+    background: var(--btn-bg-color);
+    font-family: var(--font-secondary);
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 0 0 4px 4px;
+  }
+  
+  .countdown h1 {
+    text-shadow: 2px 2px 0 var(--accent-color);
+    font-style: italic;
+    margin: 2rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .countdown p {
+    font-size: 1.1rem;
+    font-family: var(--font-secondary);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  /* ------------------------------faq----------------------------- */
+  .faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: #444;
+    color: #ccc;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{
+    margin: auto;
+    color: #ccc;
+    font-size: 18px;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: #f9f9f959;
+}
+.faq-one-page:hover {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f9f9f959;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: rgba(255, 255, 255, 0.103);
+    display: none;
+    overflow: hidden;
+    
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
