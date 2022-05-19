@@ -91,6 +91,7 @@ main {
     grid-area: a;
     background-color: blueviolet;
     background-image: url(./images/gallery/1.png);
+    background-size: cover;
 }
 #gal-img-2 {
     grid-area: b;
