@@ -96,70 +96,104 @@ main {
 #gal-img-2 {
     grid-area: b;
     background-color: blueviolet;
+    background-image: url(./images/gallery/2.png);
+    background-size: cover;
 }
 #gal-img-3 {
     grid-area: c;
     background-color: blueviolet;
+    background-image: url(./images/gallery/3.png);
+    background-size: cover;
 }
 #gal-img-4 {
     grid-area: d;
     background-color: blueviolet;
+    background-image: url(./images/gallery/4.png);
+    background-size: cover;
 }
 #gal-img-5 {
     grid-area: e;
     background-color: blueviolet;
+    background-image: url(./images/gallery/5.png);
+    background-size: cover;
 }
 #gal-img-6 {
     grid-area: f;
     background-color: blueviolet;
+    background-image: url(./images/gallery/6.png);
+    background-size: cover;
 }
 #gal-img-7 {
     grid-area: g;
     background-color: blueviolet;
+    background-image: url(./images/gallery/7.png);
+    background-size: cover;
 }
 #gal-img-8 {
     grid-area: h;
     background-color: blueviolet;
+    background-image: url(./images/gallery/8.png);
+    background-size: cover;
 }
 #gal-img-9 {
     grid-area: i;
     background-color: blueviolet;
+    background-image: url(./images/gallery/9.png);
+    background-size: cover;
 }
 #gal-img-10 {
     grid-area: j;
     background-color: blueviolet;
+    background-image: url(./images/gallery/10.png);
+    background-size: cover;
 }
 #gal-img-11 {
     grid-area: k;
     background-color: blueviolet;
+    background-image: url(./images/gallery/11.png);
+    background-size: cover;
 }
 #gal-img-12 {
     grid-area: l;
     background-color: blueviolet;
+    background-image: url(./images/gallery/12.png);
+    background-size: cover;
 }
 #gal-img-13 {
     grid-area: m;
     background-color: blueviolet;
+    background-image: url(./images/gallery/13.png);
+    background-size: cover;
 }
 #gal-img-14 {
     grid-area: n;
     background-color: blueviolet;
+    background-image: url(./images/gallery/14.png);
+    background-size: cover;
 }
 #gal-img-15 {
     grid-area: o;
     background-color: blueviolet;
+    background-image: url(./images/gallery/15.png);
+    background-size: cover;
 }
 #gal-img-16 {
     grid-area: p;
     background-color: blueviolet;
+    background-image: url(./images/gallery/16.png);
+    background-size: cover;
 }
 #gal-img-17 {
     grid-area: q;
     background-color: blueviolet;
+    background-image: url(./images/gallery/17.png);
+    background-size: cover;
 }
 #gal-img-18 {
     grid-area: r;
     background-color: blueviolet;
+    background-image: url(./images/gallery/18.png);
+    background-size: cover;
 }
 
 #demo {
