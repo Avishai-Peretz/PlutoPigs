@@ -5,19 +5,30 @@
 }
 body {
     font-size: 10px;
-    background: url(./images/template_bg_NEW.png) center center no-repeat ;
-    background-size: auto;
+    overflow: scroll;
     font-family: "Chakra Petch", sans-serif;
 }
-header {
+#background {
+    position: fixed;
+    background: url(./images/template_bg-1920x1080.png) center center/cover no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+intro img {
+    size
+    width: 10px;
+}
 
-    border: yellow 1px solid;
+header {
+    width: 100vw;
+    height: 100vh;
 }
 nav {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw;
+    right: 0;
     height: 5rem;
 }
 #social-links-container {
@@ -41,8 +52,8 @@ nav {
 
 .intro-gif{
     background: url(./images/JET_ANIMATION_NON_REPEAT.gif) center center/contain no-repeat;
-    width: 30rem;
-    height: 5rem;
+    width: 50rem;
+    height: 10rem;
 }
 .intro-gif:hover {
     background: url(./images/PlutoPings-ANIMATION.gif) center center/contain no-repeat;
@@ -58,16 +69,18 @@ nav {
     opacity:0;
 }
 #intro-container {
-    height: 30rem ;
+    height: 100vh;
     width: 55rem;
-    border: yellow 1px solid;
 }
 main {
     width: 100vw;
 }
 
+
+
 .info-text {
     width: 30rem;
+    border-radius: 10px 0 0 10px;
     height: 27rem;
     background-color: aqua;
 }
@@ -75,7 +88,6 @@ main {
     width: 27rem;
     height: 27rem;
     background-color: bisque;
-    border: yellow 1px solid;
     display: grid;
     grid-template-areas:
     "a a b c d d"
@@ -89,109 +101,84 @@ main {
 }
 #gal-img-1 {
     grid-area: a;
-    background-color: blueviolet;
     background-image: url(./images/gallery/1.png);
     background-size: cover;
 }
 #gal-img-2 {
     grid-area: b;
-    background-color: blueviolet;
     background-image: url(./images/gallery/2.png);
     background-size: cover;
 }
 #gal-img-3 {
     grid-area: c;
-    background-color: blueviolet;
     background-image: url(./images/gallery/3.png);
     background-size: cover;
 }
 #gal-img-4 {
     grid-area: d;
-    background-color: blueviolet;
     background-image: url(./images/gallery/4.png);
     background-size: cover;
 }
 #gal-img-5 {
     grid-area: e;
-    background-color: blueviolet;
     background-image: url(./images/gallery/5.png);
     background-size: cover;
 }
 #gal-img-6 {
     grid-area: f;
-    background-color: blueviolet;
     background-image: url(./images/gallery/6.png);
     background-size: cover;
 }
 #gal-img-7 {
     grid-area: g;
-    background-color: blueviolet;
     background-image: url(./images/gallery/7.png);
     background-size: cover;
-}
-#gal-img-8 {
-    grid-area: h;
-    background-color: blueviolet;
+
     background-image: url(./images/gallery/8.png);
     background-size: cover;
 }
 #gal-img-9 {
-    grid-area: i;
-    background-color: blueviolet;
     background-image: url(./images/gallery/9.png);
     background-size: cover;
 }
 #gal-img-10 {
-    grid-area: j;
-    background-color: blueviolet;
     background-image: url(./images/gallery/10.png);
     background-size: cover;
 }
 #gal-img-11 {
-    grid-area: k;
-    background-color: blueviolet;
     background-image: url(./images/gallery/11.png);
     background-size: cover;
 }
 #gal-img-12 {
-    grid-area: l;
-    background-color: blueviolet;
     background-image: url(./images/gallery/12.png);
     background-size: cover;
 }
 #gal-img-13 {
-    grid-area: m;
-    background-color: blueviolet;
     background-image: url(./images/gallery/13.png);
     background-size: cover;
 }
 #gal-img-14 {
     grid-area: n;
-    background-color: blueviolet;
     background-image: url(./images/gallery/14.png);
     background-size: cover;
 }
 #gal-img-15 {
     grid-area: o;
-    background-color: blueviolet;
     background-image: url(./images/gallery/15.png);
     background-size: cover;
 }
 #gal-img-16 {
     grid-area: p;
-    background-color: blueviolet;
     background-image: url(./images/gallery/16.png);
     background-size: cover;
 }
 #gal-img-17 {
     grid-area: q;
-    background-color: blueviolet;
     background-image: url(./images/gallery/17.png);
     background-size: cover;
 }
 #gal-img-18 {
     grid-area: r;
-    background-color: blueviolet;
     background-image: url(./images/gallery/18.png);
     background-size: cover;
 }
@@ -201,6 +188,7 @@ main {
     font-size: 2rem;
     color: aliceblue;
 }
+
 .countdown {
     display: flex;
     flex-direction: column;
@@ -211,17 +199,19 @@ main {
   
   .countdown ul {
     display: flex;
-    gap: 2rem
+    gap: 1rem
   }
   .countdown .clock-item {
     list-style: none;
-    width: 70px;
+    width: 8rem;
+    height: 4rem;
     height: auto;
+    transform: translateX(-7px);
   }
   .countdown .clock-item .count-number {
     background: var(--accent-color);
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: 700;
     font-family: var(--font-secondary);
     padding: 1rem;
@@ -229,11 +219,14 @@ main {
     width: 100%;
     text-align: center;
     line-height: 1;
+    background-color: rgba(137, 43, 226, 0.075);
     border-radius: 4px 4px 0 0;
-  }
-  .countdown .clock-item .count-text {
+}
+.countdown .clock-item .count-text {
     background: var(--btn-bg-color);
     font-family: var(--font-secondary);
+    margin-top: 5px;
+    background-color: rgba(137, 43, 226, 0.075);
     font-size: 1.1rem;
     color: #fff;
     padding: 0.5rem 0.7rem;
