@@ -91,6 +91,7 @@ nav {
 }
 main {
     width: 100vw;
+    margin-top: 20px;
 }
 
 .info-container {
