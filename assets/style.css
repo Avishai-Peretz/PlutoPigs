@@ -27,10 +27,14 @@ nav {
     right: 0;
     height: 5rem;
 }
-#social-links-container {
+#social-links-container-pc{
     width: 24rem;
     height: 5.1rem;
 }
+#social-links-container-mobile{
+    display: none;
+}
+
 .link-btn {
     width: 3rem;
     height: 3rem;
@@ -349,4 +353,7 @@ flex-direction: column;
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
+}
+.media {
+    display: none;
 }

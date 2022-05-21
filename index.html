@@ -17,7 +17,7 @@
     <div id="background"></div>
     <header class="column-c-c">
         <nav class="row-c-fe">
-            <div id="social-links-container" class="row-c-c">
+            <div id="social-links-container-pc" class="row-c-c">
                 <a href="https://discord.com/invite/dQEMFTVWx2" class="link-btn discord-btn" target="_blank"></a> 
                 <a href="#" class="link-btn magic-eden-btn" target="_blank"></a> 
                 <a href="https://twitter.com/plutopigsnft" class="link-btn twitter-btn" target="_blank"></a> 
@@ -59,6 +59,11 @@
                     </li>
                 </ul>
         </div>
+        <div id="social-links-container-mobile" class="row-c-c">
+             <a href="https://discord.com/invite/dQEMFTVWx2" class="link-btn discord-btn" target="_blank"></a> 
+             <a href="#" class="link-btn magic-eden-btn" target="_blank"></a> 
+             <a href="https://twitter.com/plutopigsnft" class="link-btn twitter-btn" target="_blank"></a> 
+         </div>
    </header>
    <main class="column-c-c">
       <div class="info-container row-c-c">
@@ -411,4 +416,20 @@
    <script src="./countdown.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
+<style>
+    @media only screen and (max-width: 1350px) {
+        #social-links-container-pc{
+            display: none;
+        }
+        #social-links-container-mobile{
+            display: flex;
+            height: 5.1rem;
+        }
+        .link-btn {
+            width: 6rem;
+            height: 6rem;
+            margin: 1rem;
+        }
+}
+</style>
 </html>
