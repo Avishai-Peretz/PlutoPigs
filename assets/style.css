@@ -60,8 +60,7 @@ nav {
     background: url(./images/twitter_button_animated.gif) center center/cover;
 }
 
-.intro-gif{
-    background: url(./images/JET_ANIMATION_NON_REPEAT.gif) center center/contain no-repeat;
+.intro-gif img{
     width: 50rem;
     height: 10rem;
 }
