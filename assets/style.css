@@ -11,8 +11,9 @@
 }
 body {
     font-size: 10px;
-    overflow: scroll;
-    font-family: "Chakra Petch", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: "Chakra Petch", sans-serif;  
 }
 #background {
     position: fixed;
@@ -25,7 +26,7 @@ body {
 
 header {
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
 }
 nav {
     position: fixed;
