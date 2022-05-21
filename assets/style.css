@@ -61,11 +61,7 @@ nav {
     width: 50rem;
     height: 10rem;
 }
-.intro-gif:hover {
-    background: url(./images/PlutoPings-ANIMATION.gif) center center/contain no-repeat;
-    width: 30rem;
-    height: 5rem;
-}
+
 .static {
     position:absolute;
     top:51%;
@@ -82,18 +78,22 @@ main {
     width: 100vw;
 }
 
-
+.info-container {
+    margin: 40px;
+}
 
 .info-text {
+    color: #fff;
     width: 30rem;
-    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    border-radius: 10px ;
     height: 27rem;
-    background-color: rgba(0, 255, 255, 0.527);
+    margin-right: 20px;
+    background-color: rgba(137, 43, 226, 0.075);
 }
 .info-gallery {
     width: 27rem;
     height: 27rem;
-    background-color: bisque;
     display: grid;
     grid-template-areas:
     "a a b c d d"
@@ -103,7 +103,7 @@ main {
     "m m o o p q"
     "m m k l r n"
     ;
-    grid-gap: 3px;
+    grid-gap: 10px;
 }
 #gal-img-1 {
     grid-area: a;
@@ -139,27 +139,34 @@ main {
     grid-area: g;
     background-image: url(./images/gallery/7.png);
     background-size: cover;
-
+}
+#gal-img-8 {
+    grid-area: h;
     background-image: url(./images/gallery/8.png);
     background-size: cover;
 }
 #gal-img-9 {
+    grid-area: i;
     background-image: url(./images/gallery/9.png);
     background-size: cover;
 }
 #gal-img-10 {
+    grid-area: j;
     background-image: url(./images/gallery/10.png);
     background-size: cover;
 }
 #gal-img-11 {
+    grid-area: k;
     background-image: url(./images/gallery/11.png);
     background-size: cover;
 }
 #gal-img-12 {
+    grid-area: l;
     background-image: url(./images/gallery/12.png);
     background-size: cover;
 }
 #gal-img-13 {
+    grid-area: m; 
     background-image: url(./images/gallery/13.png);
     background-size: cover;
 }
@@ -189,11 +196,27 @@ main {
     background-size: cover;
 }
 
+.yeti-container {
+    width: 27rem;
+    height: 27rem;
+    background: url(./images/yetiShip.png) center center no-repeat;
+}
+.roadmap-text {
+        color: #fff;
+        width: 27rem;
+        padding: 10px;
+        border-radius: 10px ;
+        height: 27rem;
+        margin-left: 70px;
+        background-color: rgba(137, 43, 226, 0.075);
+}
+
 #demo {
     height: 3rem;
     font-size: 2rem;
     color: aliceblue;
 }
+
 
 .countdown {
     display: flex;
@@ -286,6 +309,7 @@ flex-direction: column;
     outline: none;
     transition: 0.4s;
     margin: auto;
+    transform: 1s;
 }
 .faq-body{
     margin: auto;
@@ -294,6 +318,7 @@ flex-direction: column;
     /* text-align: center; */
    width: 50%; 
    padding: auto;
+   transform: 1s;
    
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -302,8 +327,6 @@ flex-direction: column;
     background-color: #f9f9f959;
 }
 .faq-one-page:hover {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     background-color: #f9f9f959;
 }
 /* Style the faq-page panel. Note: hidden by default */
