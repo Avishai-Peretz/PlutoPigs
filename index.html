@@ -33,7 +33,7 @@
                 <img src="https://static.wixstatic.com/media/ceb916_c2e64543bcd945baa31df6faff4a51fc~mv2.png/v1/fill/w_237,h_237,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PlutoSign.png" alt="PlutoSign.png" style="width:237px;height:237px;object-fit:cover;object-position:50% 50%">
             </div>
             <div  class="intro-gif" >
-                <img id="case_1" src="./assets/images/JET_ANIMATION_NON_REPEAT.gif" >
+                <img id="plutoGif" src="./assets/images/JET_ANIMATION_NON_REPEAT.gif" class="none" >
             </div>
             <div id="countdown-h1" class="intro"></div>
             <div class="countdown">
@@ -418,6 +418,8 @@
    <script src="./countdown.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <script>
+       const plutoGif = document.getElementById("plutoGif")
+       plutoGif.setAttribute('class','shown')
     $(document).ready(function () {
      $("#case_1").attr("src", "./assets/images/JET_ANIMATION_NON_REPEAT.gif?" + Math.random());
      });

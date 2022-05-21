@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.none {
+    display: none;
+}
+.shown {
+    display: block;
+}
 body {
     font-size: 10px;
     overflow: scroll;
