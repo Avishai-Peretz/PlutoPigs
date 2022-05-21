@@ -327,7 +327,31 @@ flex-direction: column;
     margin: auto;
     transform: 1s;
 }
+.faq-page-none-click {
+    /* background-color: #eee; */
+    color: #444;
+    color: #ccc;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60rem;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    transform: 1s;
+}
 .faq-body{
+    margin: auto;
+    color: #ccc;
+    font-size: 18px;
+    /* text-align: center; */
+   width: 50%; 
+   padding: auto;
+   transform: 1s;
+   
+}
+.faq-body-none-click{
     margin: auto;
     color: #ccc;
     font-size: 18px;
