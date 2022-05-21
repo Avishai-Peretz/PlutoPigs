@@ -363,3 +363,7 @@ flex-direction: column;
 .media {
     display: none;
 }
+
+.rights {
+    text-align: center;
+}
