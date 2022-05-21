@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 .none {
     display: none;
 }
@@ -11,10 +13,13 @@
 }
 body {
     font-size: 10px;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
     font-family: "Chakra Petch", sans-serif;  
 }
+body::-webkit-scrollbar {
+    display: none;
+  }
 #background {
     position: fixed;
     background: url(./images/template_bg_NEW_16_by_9_NO_STARS.png) center center/cover no-repeat;
