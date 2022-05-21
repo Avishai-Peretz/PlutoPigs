@@ -239,21 +239,22 @@ main {
     justify-content: center;
     align-items: center;
     height: 9rem;
-  }
-  
-  .countdown ul {
+}
+
+.countdown ul {
     display: flex;
     gap: 1rem
-  }
-  .countdown .clock-item {
+}
+.countdown .clock-item {
     list-style: none;
     width: 8rem;
     height: 4rem;
     height: auto;
     transform: translateX(-7px);
-  }
-  .countdown .clock-item .count-number {
+}
+.countdown .clock-item .count-number {
     background: var(--accent-color);
+    transition: 2s;
     color: #fff;
     font-size: 2.6rem;
     font-weight: 700;
